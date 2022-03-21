@@ -15,3 +15,21 @@ gsap.from("#overlay nav button", {
     duration: 1.5,
     opacity: 0
 });
+gsap.from("#content h1",{
+    delay: 2.5,
+    y: -50,
+    duration: 1.5,
+    opacity: 0,
+});
+gsap.from("#content p",{
+    delay: 3,
+    y: -50,
+    duration: 1.5,
+    opacity: 0
+});
+gsap.from("#content button", {
+    delay: 3.5,
+    y: -50,
+    duration: 1.5,
+    opacity: 0
+});
